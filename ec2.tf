@@ -16,7 +16,7 @@ resource "aws_instance" "my_instance" {
 }
 
 resource "aws_security_group" "demosg" {
-  name        = "new-sg"
+  name        = "newsg"
   description = "Security group for WordPress and MySQL"
 
   ingress {
